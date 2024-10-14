@@ -2,6 +2,8 @@ package DayOne;
 
 import java.util.List;
 
+import DayOne.shape.IShape;
+
 public abstract class ShapeCollection {
     List<IShape> items;
 

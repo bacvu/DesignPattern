@@ -3,6 +3,8 @@ package DayOne;
 import java.util.Collections;
 import java.util.List;
 
+import DayOne.shape.IShape;
+
 public class SortCircleFirst extends ShapeCollection  {
 
     protected SortCircleFirst(List<IShape> items) {

@@ -2,6 +2,8 @@ package DayOne;
 
 import java.util.Comparator;
 
+import DayOne.shape.IShape;
+
 public class SortbyType implements Comparator<IShape>
 { 
     public SortbyType(ISetOrder setOrder) {

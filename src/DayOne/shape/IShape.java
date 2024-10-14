@@ -1,11 +1,9 @@
-package DayOne;
-
-import DayOne.shape.Shape;
+package DayOne.shape;
 
 /**
  * IShape
  */
 public interface IShape {
-    Shape type();
+    ShapeType type();
     void draw();
 }

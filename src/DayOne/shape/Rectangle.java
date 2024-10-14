@@ -1,12 +1,10 @@
 package DayOne.shape;
 
-import DayOne.IShape;
-
 public class Rectangle implements IShape {
 
     @Override
-    public Shape type() {
-        return Shape.RECTANGLE;
+    public ShapeType type() {
+        return ShapeType.RECTANGLE;
     }
 
     @Override

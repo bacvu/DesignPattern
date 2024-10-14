@@ -1,12 +1,10 @@
 package DayOne.shape;
 
-import DayOne.IShape;
-
 public class Circle implements IShape {
 
     @Override
-    public Shape type() {
-        return Shape.CIRCLE;
+    public ShapeType type() {
+        return ShapeType.CIRCLE;
     }
 
     @Override

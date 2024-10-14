@@ -1,12 +1,10 @@
 package DayOne.shape;
 
-import DayOne.IShape;
-
 public class Triangle implements IShape {
 
     @Override
-    public Shape type() {
-        return Shape.TRIANGLE;
+    public ShapeType type() {
+        return ShapeType.TRIANGLE;
     }
 
     @Override

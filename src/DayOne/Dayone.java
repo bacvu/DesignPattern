@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import DayOne.shape.Circle;
+import DayOne.shape.IShape;
 import DayOne.shape.Rectangle;
 import DayOne.shape.Triangle;
 

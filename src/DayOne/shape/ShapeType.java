@@ -1,6 +1,6 @@
 package DayOne.shape;
 
-public enum Shape {
+public enum ShapeType {
     CIRCLE,
     RECTANGLE,
     TRIANGLE
