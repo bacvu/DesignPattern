@@ -1,4 +1,5 @@
 import DayOne.Dayone;
+import DayTwo.DayTwo;
 
 public class App {
     public static void main(String[] args) throws Exception {
@@ -6,5 +7,8 @@ public class App {
 
         Dayone dayOne = new Dayone();
         dayOne.executeDayOne();
+
+        DayTwo dayTwo = new DayTwo();
+        dayTwo.executeDayTwo();
     }
 }
